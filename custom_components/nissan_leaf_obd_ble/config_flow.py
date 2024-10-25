@@ -16,7 +16,10 @@ from homeassistant.data_entry_flow import FlowResult
 
 from .const import DOMAIN
 
-LOCAL_NAMES = {"OBDBLE"}
+#lelink 
+#LOCAL_NAMES = {"OBDBLE"}
+#tonwon
+LOCAL_NAMES = {"IOS-Vlink"}
 
 
 class NissanLeafObdBleFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
