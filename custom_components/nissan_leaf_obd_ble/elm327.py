@@ -62,8 +62,11 @@ class ELM327:
     ELM_LP_ACTIVE = b"OK"
 
     # GATT UUIDs specifically for LeLink OBD BLE dongle
-    SERVICE_UUID = "0000ffe0-0000-1000-8000-00805f9b34fb"
-    CHARACTERISTIC_UUID = "0000ffe1-0000-1000-8000-00805f9b34fb"
+    #SERVICE_UUID = "0000ffe0-0000-1000-8000-00805f9b34fb"
+    #CHARACTERISTIC_UUID = "0000ffe1-0000-1000-8000-00805f9b34fb"
+    # GATT UUIDs specifically for Tonwon OBD BLE dongle
+    SERVICE_UUID = "e7810a71-73ae-499d-8c15-faa9aef0c3f2"
+    CHARACTERISTIC_UUID = "bef8d6c9-9c21-4c9e-b632-bd58c1009f9f"
 
     def __init__(
         self,
